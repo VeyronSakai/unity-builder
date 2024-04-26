@@ -77,7 +77,7 @@ class ImageEnvironmentFactory {
       { name: 'GITHUB_ACTION', value: process.env.GITHUB_ACTION },
       { name: 'GITHUB_ACTIONS', value: process.env.GITHUB_ACTIONS },
       { name: 'GITHUB_EVENT_PATH', value: process.env.GITHUB_EVENT_PATH },
-      { name: 'GITHUB_STEP_SUMMARY', value: `/github/workspace${process.env.GITHUB_STEP_SUMMARY}` },
+      { name: 'GITHUB_STEP_SUMMARY', value: process.env.GITHUB_STEP_SUMMARY },
       { name: 'RUNNER_OS', value: process.env.RUNNER_OS },
       { name: 'RUNNER_TOOL_CACHE', value: process.env.RUNNER_TOOL_CACHE },
       { name: 'RUNNER_TEMP', value: process.env.RUNNER_TEMP },
